@@ -181,4 +181,133 @@ body {
   font-weight: 300;
 }
 
+.content {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.content .articles {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.content .articles__title {
+  font-size: 3.5rem;
+}
+.content .articles__info {
+  font-size: 1.6rem;
+  color: #808080;
+  line-height: 1.6;
+}
+.content .articles__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.content .articles__container .card {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.content .articles__container .card__figure {
+  width: 100%;
+  cursor: pointer;
+}
+.content .articles__container .card__figure:hover .card-img {
+  transform: scale(1.02);
+}
+.content .articles__container .card__figure .card-img {
+  transition: all 0.3s ease-in;
+  width: 100%;
+  max-width: 400px;
+}
+.content .articles__container .card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  justify-content: center;
+}
+.content .articles__container .card__info .category__post {
+  background-color: #141414;
+  color: #f3f0f0;
+  width: 70px;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+  align-self: center;
+  cursor: pointer;
+}
+.content .articles__container .card__info .title__post {
+  font-size: 2.4rem;
+  color: #141414;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+.content .articles__container .card__info .date__post {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  color: rgb(128, 128, 128);
+  font-size: 1.4rem;
+  gap: 0.5rem;
+}
+.content .articles__container .card__info .date__post .user-post {
+  color: #6c6b6b;
+  font-weight: 700;
+}
+.content .articles__container .card__info .description__post {
+  font-size: 1.8rem;
+  color: rgb(128, 128, 128);
+  line-height: 1.6;
+  font-weight: 400;
+}
+.content .articles__container .card__info .more__post {
+  font-size: 1.4rem;
+  color: #808080;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.content .articles__container .card__info .more__post strong:first-child {
+  padding-left: 1rem;
+}
+.content .articles__container .card__info .more__post:hover {
+  transform: translateX(5px);
+}
+.content .articles .paginator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 5rem 0;
+}
+.content .articles .paginator .page {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  color: rgb(128, 128, 128);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.content .articles .paginator .page:hover {
+  border: 1px solid rgb(224, 222, 222);
+}
+.content .articles .paginator .active {
+  border: 1px solid rgb(224, 222, 222);
+}
+
 /*# sourceMappingURL=style.css.map */
