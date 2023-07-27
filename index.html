@@ -11,6 +11,208 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header class="header">
+    <nav class="nav">
+      <img src="assets/img/logo.svg" alt="logo blog hugo" class="nav__logo">
+      <div class="nav__hamburguer">
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger" class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </label>
+      </div>
+      <ol class="nav__options">
+        <li class="options__item"><a href="#" class="item__link">Home</a></li>
+        <li class="options__item"><a href="#" class="item__link">About</a></li>
+        <li class="options__item"><a href="#" class="item__link">Contact</a></li>
+        <div class="options__social">
+          <span class="social__icon">
+            <img src="assets/img/facebook.png" alt="icon-facebook" class="icon-red">
+          </span>
+          <span class="social__icon">
+            <img src="assets/img/gorjeo.png" alt="icon-facebook" class="icon-red">
+          </span>
+          <span class="social__icon">
+            <img src="assets/img/instagram.png" alt="icon-facebook" class="icon-red">
+          </span>
+        </div>
+      </ol>
+    </nav>
+    <section class="hero">
+      <figure class="hero__figure">
+        <img src="assets/img/featured-post.jpg" alt="hero illustration" class="hero-img">
+      </figure>
+      <section class="hero__author">
+        <img src="assets/img/author.png" alt="" class="author__avatar">
+        <p class="author__name"><span>By</span> Mary Astor</p>
+        <h2 class="author__title">Welcome to My Personal Blog</h2>
+        <p class="author__location"><img src="assets/img/reloj.png" alt="">January 13, 2021 - 2 min read</p>
+      </section>
+    </section>
+  </header>
+  <main class="content">
+    <section class="articles">
+      <h2 class="articles__title">Articles</h2>
+      <p class="articles__info">view the latest news on blogger</p>
+      <div class="articles__container">
+        <article class="card">
+          <figure class="card__figure">
+            <img src="assets/img/blog-thum-1.png" alt="" class="card-img">
+          </figure>
+          <div class="card__info">
+            <span class="category__post">travel</span>
+            <h3 class="title__post">Personal Post</h3>
+            <p class="date__post">
+              by <span class="user-post">Mary Astor</span> <img src="assets/img/reloj.png" alt=""> January 13, 2021 - 10 min read
+            </p>
+            <p class="description__post">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <span class="more__post">Read More  <strong>></strong></span>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="card__figure">
+            <img src="assets/img/blog-thum-6.png" alt="" class="card-img">
+          </figure>
+          <div class="card__info">
+            <span class="category__post">Office</span>
+            <h3 class="title__post">Officel first Post</h3>
+            <p class="date__post">
+              by <span class="user-post">Mary Astor</span> <img src="assets/img/reloj.png" alt=""> January 13, 2021 - 10 min read
+            </p>
+            <p class="description__post">consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <span class="more__post">Read More ></span>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="card__figure">
+            <img src="assets/img/blog-thum-7.png" alt="" class="card-img">
+          </figure>
+          <div class="card__info">
+            <span class="category__post">Travel</span>
+            <h3 class="title__post">New blog Post</h3>
+            <p class="date__post">
+              by <span class="user-post">Mary Astor</span> <img src="assets/img/reloj.png" alt=""> January 13, 2021 - 5 min read
+            </p>
+            <p class="description__post">consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <span class="more__post">Read More ></span>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="card__figure">
+            <img src="assets/img/blog-thum-2.png" alt="" class="card-img">
+          </figure>
+          <div class="card__info">
+            <span class="category__post">news</span>
+            <h3 class="title__post">Breaking news Post</h3>
+            <p class="date__post">
+              by <span class="user-post">Mary Astor</span> <img src="assets/img/reloj.png" alt=""> January 13, 2021 - 10 min read
+            </p>
+            <p class="description__post">consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <span class="more__post">Read More ></span>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="card__figure">
+            <img src="assets/img/blog-thum-3.png" alt="" class="card-img">
+          </figure>
+          <div class="card__info">
+            <span class="category__post">news</span>
+            <h3 class="title__post">My blog Post</h3>
+            <p class="date__post">
+              by <span class="user-post">Mary Astor</span> <img src="assets/img/reloj.png" alt=""> January 13, 2021 - 1 min read
+            </p>
+            <p class="description__post">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <span class="more__post">Read More ></span>
+          </div>
+        </article>
+        <article class="card">
+          <figure class="card__figure">
+            <img src="assets/img/blog-thum-2.png" alt="" class="card-img">
+          </figure>
+          <div class="card__info">
+            <span class="category__post">news</span>
+            <h3 class="title__post">2nd blog Post</h3>
+            <p class="date__post">
+              by <span class="user-post">Mary Astor</span> <img src="assets/img/reloj.png" alt=""> January 13, 2021 - 4 min read
+            </p>
+            <p class="description__post">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <span class="more__post">Read More ></span>
+          </div>
+        </article>
+      </div>
+      <div class="paginator">
+        <span class="page active">1</span>
+        <span class="page">2</span>
+        <span class="page">></span>
+      </div>
+    </section>
+    <section class="trending">
+      <h3 class="trending__title">trending post</h3>
+      <div class="trending__container">
+        <article class="card__trending">
+          <figure class="trending__img">
+            <img src="assets/img/blog-thum-6.png" alt="" class="trend-img">
+          </figure>
+          <div class="trending__info">
+            <p class="name__trending">Officel firts post</p>
+            <p class="date__trending"><img src="assets/img/reloj.png" alt=""> January 13, 2021 - 4 min read</p>
+          </div>
+        </article>
+        <article class="card__trending">
+          <figure class="trending__img">
+            <img src="assets/img/blog-thum-2.png" alt="" class="trend-img">
+          </figure>
+          <div class="trending__info">
+            <p class="name__trending">Breaking news post</p>
+            <p class="date__trending"><img src="assets/img/reloj.png" alt=""> January 13, 2021 - 10 min read</p>
+          </div>
+        </article>
+        <article class="card__trending">
+          <figure class="trending__img">
+            <img src="assets/img/blog-thum-3.png" alt="" class="trend-img">
+          </figure>
+          <div class="trending__info">
+            <p class="name__trending">My blog post</p>
+            <p class="date__trending"><img src="assets/img/reloj.png" alt=""> January 13, 2021 - 1 min read</p>
+          </div>
+        </article>
+        <article class="card__trending">
+          <figure class="trending__img">
+            <img src="assets/img/blog-thum-9.png" alt="" class="trend-img">
+          </figure>
+          <div class="trending__info">
+            <p class="name__trending">My new Post</p>
+            <p class="date__trending"><img src="assets/img/reloj.png" alt=""> January 13, 2021 - 10 min read</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <figure class="footer__logo">
+      <img src="assets/img/logo.svg" alt="" class="foot-logo">
+    </figure>
+    <ol class="footer__options">
+      <li class="item"><a href="#" class="link">Home</a></li>
+      <li class="item"><a href="#" class="link">About</a></li>
+      <li class="item"><a href="#" class="link">Contact</a></li>
+    </ol>
+    <div class="social">
+      <span class="social__icon">
+        <img src="assets/img/facebook.png" alt="icon-facebook" class="icon-red">
+      </span>
+      <span class="social__icon">
+        <img src="assets/img/gorjeo.png" alt="icon-facebook" class="icon-red">
+      </span>
+      <span class="social__icon">
+        <img src="assets/img/instagram.png" alt="icon-facebook" class="icon-red">
+      </span>
+    </div>
+    <section class="footer__copy">
+      <p class="copy">© Copyright 2022 - All Rights Reserved by StaticMania</p>
+    </section>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 </html>
